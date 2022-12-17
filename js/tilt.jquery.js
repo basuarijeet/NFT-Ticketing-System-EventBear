@@ -122,7 +122,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
             var left = $(this).offset().left;
             var top = $(this).offset().top;
             // var percentageX = (this.mousePositions.x - left) / width;
-            var percentageY = (this.mousePositions.y - top) / height;
+            // var percentageY = (this.mousePositions.y - top) / height;
             // x or y position inside instance / width of instance = percentage of position inside instance * the max tilt value
             var tiltX = (this.settings.maxTilt / 2 - percentageY * this.settings.maxTilt).toFixed(2);
             var tiltY = (percentageY * this.settings.maxTilt - this.settings.maxTilt / 2).toFixed(2);
