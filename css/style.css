@@ -1733,14 +1733,14 @@ h3 {
 .header-area .main-header-area .buy_tkt .book_btn a {
   background: #FF4533;
   font-family: "Anton", sans-serif;
-  /* padding: 12px 46px; */
+  padding: 12px 29px;
   font-size: 16px;
   font-weight: 400;
   border: 1px solid transparent;
   color: #fff;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
-  border-radius: 0px;
+  border-radius: 35px;
   text-transform: capitalize;
 }
 
