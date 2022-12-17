@@ -1,0 +1,69 @@
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register</title>
+    <style>
+        *{
+        padding:0;
+        margin:0;
+        font-family: sans-serif;
+        }
+        body{
+        background:url('https://wallpaperaccess.com/full/1567665.png') no-repeat;
+        background-size: cover;
+        color: #fff;
+        }
+        .Register-form{
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        width:400px;
+        }
+        .Register-form h1{
+        font-size: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 40px 0;
+        }
+        .Register-form p{
+        font-size: 20px;
+        margin: 15px 0;
+        }
+        .Register-form input{
+        font-size: 16px;
+        padding: 15px 10px;
+        width: 100%;
+        border:0;
+        border-radius:5px;
+        outline: none;
+        }
+        .Register-form button{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 20px 0;
+        padding: 10px 15px;
+        width: 50%;
+        border-radius: 5px;
+        background-color: #fff;
+        }
+        Register-form button:hover{
+        color:red;
+        }
+
+    </style>
+</head>
+<body>
+<div class="Register-form">
+    <h1>Registration form</h1>
+    <form action="#" method="post">
+        <p>NAME:</p><br>
+        <input type="text" name="one" id="name" placeholder="full name"><br><br>
+        <p>USERNAME:</p><br>
+        <input type="email" name="two" id="username" placeholder="Email"><br><br>
+        <p>PASSWORD:</p><br>
+        <input type="password" name="three" id="password" placeholder="password"><br><br>
+        <button type="submit" value="CREATE USER">Register!</button>
+    </form>
+</body>
+</html>

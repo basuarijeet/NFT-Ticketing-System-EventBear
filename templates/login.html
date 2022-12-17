@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+<!--    <link rel="stylesheet" type="text/css" href="./style.css">-->
+    <style>
+        *{
+  padding:0;
+  margin:0;
+  font-family: sans-serif;
+  }
+  body{
+  background: url('https://wallpaperaccess.com/full/1567665.png') no-repeat;
+  background-size:cover;
+  }
+.Login-form{
+width:350px;
+top: 50%;
+left:50%;
+transform: translate(-50%,-50%);
+position:absolute;
+color: #fff
+}
+.Login-form h1{
+font-size: 40px;
+text-align: center;
+text-transform: uppercase;
+margin: 40px 0;
+}
+.Login-form p{
+font-size: 16px;
+margin: 15px 0;
+}
+.Login-form input{
+font-size: 16px;
+width: 100%;
+padding: 15px 10px;
+border: 0;
+outline: none;
+border-radius: 5px;
+}
+.Login-form button{
+font-size: 18px;
+font-weight: bold;
+margin: 20px 0;
+padding: 10px 15px;
+width: 50%;
+border-radius:5 px;
+}
+
+    </style>
+</head>
+<body>
+<div class="Login-form">
+<form action="" method="post">
+    <h1>Login Form</h1>
+    <p>USERNAME</p><br>
+    <input name="username" type="email" placeholder="write your username"><br><br>
+    <p>PASSWORD</p><br>
+    <input name="password" type="password" placeholder="write your password"><br><br>
+    <button type="submit" value="LOGIN"> LOGIN </button><br><br>
+</form>
+</div>
+<div>
+    <form action="/new">
+  <label>are you new here?</label>
+    <input value="register" type="submit">
+    </form>
+</div>
+</body>
+</html>
