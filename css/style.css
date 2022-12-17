@@ -15,7 +15,7 @@
   box-sizing: border-box;
   outline: none; border:none;
   text-decoration: none;
-  text-transform: capitalize;
+  /* text-transform:lowercase; */
   transition: .2s linear;
 }
 
@@ -28,6 +28,10 @@ html{
 
 html::-webkit-scrollbar{
   width:1rem;
+}
+
+p.lowercase {
+  text-transform: lowercase;
 }
 
 html::-webkit-scrollbar-track{
@@ -1375,7 +1379,7 @@ h3 {
   line-height: 32px;
   margin-bottom: 0;
   font-weight: 400;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
   font-family: "Muli", sans-serif;
 }
 
