@@ -3,10 +3,24 @@ $(document).ready(function(){
     (function($) {
         "use strict";
 
-    
-    jQuery.validator.addMethod('answercheck', function (value, element) {
+        
+        function getResult(california) public view returns(),
+        {
+            return ();
+        },
+        function getResult(south_carolina) public view returns(),
+        {
+            return ();
+        },
+        function getResult(new_york) public view returns(),
+        {
+            return ();
+        },
+        
+    jQuery.validator.addMethod('answercheck', function (value, element)
+     {
         return this.optional(element) || /^\bcat\b$/.test(value)
-    }, "type the correct answer -_-");
+    }, "type the correct answer -_-"));
 
     // validate contactForm form
     $(function() {
