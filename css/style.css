@@ -1321,7 +1321,7 @@ h3 {
 .section_title h3 {
   font-size: 80px;
   font-weight: 400;
-  color: #fff;
+  color: rgb(251, 255, 20);
   position: relative;
   z-index: 0;
   padding-bottom: 7px;
